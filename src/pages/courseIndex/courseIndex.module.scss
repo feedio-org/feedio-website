@@ -1,0 +1,133 @@
+.wrapper {
+    display: grid;
+    padding: 3rem 10rem;
+    gap: 3rem;
+    .courseContent {
+        padding: 0;
+        display: grid;
+        grid-template-columns: 30rem 1fr;
+        gap: 2rem;
+        background: var(--gray-1);
+        border-top-right-radius: 0.6rem;
+        border-bottom-right-radius: 0.6rem;
+        .thumbnail {
+            height: 20rem;
+            img {
+                border-top-left-radius: 0.6rem;
+                border-bottom-left-radius: 0.6rem;
+            }
+        }
+        .contnet {
+            padding: 2rem;
+            position: relative;
+            .contnetAction{
+                display: grid;
+                grid-template-columns: 1fr max-content;
+                align-items: center;
+            }
+            .h5 {
+                font-size: 1.8rem !important;
+                font-weight: 500 !important;
+            }
+            .text {
+                color: var(--gray-8);
+                font-size: 1.5rem !important;
+                font-weight: 300 !important;
+            }
+            .progress {
+                align-items: center;
+                margin-right: 10px;
+            }
+            .actions {
+                display: grid;
+                justify-content: right;
+                grid-auto-flow: column;
+                gap: 1rem;
+                opacity: 1;
+            }
+            &:hover {
+                .actions {
+                    opacity: 1;
+                }
+            }
+        }
+    }
+}
+.wrapperIndex {
+    margin-bottom: 2rem;
+    svg{
+        fill: #8B8C91;
+    }
+    .index {
+        background: var(--gray-1);
+        border-radius: .6rem;
+        .heading {
+            display: grid;
+            grid-template-columns: 1fr 20rem;
+            align-items: center;
+            padding: 1rem 2.5rem;
+            height: 6rem;
+            border-bottom: 1px solid var(--gray-4);
+            .actions {
+                display: grid;
+                justify-content: right;
+                grid-auto-flow: column;
+                gap: 1rem;
+                opacity: 0;
+            }
+            &:hover {
+                .actions {
+                    opacity: 1;
+                }
+            }
+        }
+        .indexList{
+            padding: 1rem 2.5rem;
+            .indexLabel{
+                display: grid;
+                grid-template-columns: 1fr 20rem max-content;
+                align-items: center;
+                height: 5rem;
+                .actions {
+                    display: grid;
+                    justify-content: right;
+                    grid-auto-flow: column;
+                    gap: 1rem;
+                    opacity: 1;
+                }
+                &:hover {
+                    .actions {
+                        opacity: 1;
+                    }
+                }
+                .h5 {
+                    font-weight: 500 !important;
+                }
+                .text {
+                    color: var(--gray-8);
+                    font-weight: 300 !important;
+                }
+                &:hover{
+                    .text {
+                        color: var(--primary);
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.spinner-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 80%;
+    background-color: rgba(255, 255, 255, 0.8); /* Optional: to create a dimming effect */
+    z-index: 9999; /* Ensure the spinner is on top of other content */
+  }

@@ -1,0 +1,59 @@
+.wrapper {
+    padding: 3rem;
+    .card {
+        margin: 2rem 0;
+        background: var(--gray-1);
+        min-height: 10rem;
+        min-width: 50rem;
+        padding: 2rem;
+        height: max-content;
+        border-radius: 0.6rem;
+        .header {
+            display: grid;
+            grid-template-columns: 1fr max-content;
+        }
+        .contnet {
+            padding: 2rem 0;
+        }
+        .footer {
+            display: grid;
+            justify-content: right;
+        }
+        .profile {
+            padding: 2rem 0;
+        }
+        .profileForm {
+            form {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                gap: 1rem;
+            }
+        }
+        .passwordForm {
+            padding: 2rem 0;
+            form {
+                display: grid;
+                gap: 0.5rem;
+            }
+        }
+    }
+}
+
+.cardWrapper {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 2rem;
+    justify-content: left;
+}
+
+.watermarkUpload {
+    margin-top: 20px;
+    .ant-upload-select {
+      width: 100%;
+    }
+  }
+  
+  .watermarkOption {
+    margin-top: 15px;
+  }
+  

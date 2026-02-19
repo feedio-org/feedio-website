@@ -1,0 +1,16 @@
+@media screen {
+    .wrapper {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+
+        &:hover{
+            svg{
+                fill: var(--primary);
+            }
+        }
+    }
+    .pointer {
+        cursor: pointer;
+    }
+}

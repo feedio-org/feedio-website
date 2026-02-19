@@ -1,0 +1,143 @@
+.wrapper {
+    padding: 3rem;
+    .toolBar {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding-bottom: 2rem;
+        .segmented {
+            display: grid;
+            grid-auto-flow: column;
+            gap: 1rem;
+            height: 3rem;
+            align-items: center;
+            .circle {
+                width: 2rem;
+                height: 2rem;
+                display: grid;
+                align-content: center;
+                justify-content: center;
+                border-radius: 50%;
+                background: var(--color-palette-2-lite);
+                font-size: 1rem;
+                color: var(--color-palette-2-dark);
+            }
+            .draft {
+                width: 2rem;
+                height: 2rem;
+                display: grid;
+                align-content: center;
+                justify-content: center;
+                border-radius: 50%;
+                background: var(--color-palette-8-lite);
+                font-size: 1rem;
+                color: var(--color-palette-8-dark);
+            }
+        }
+        .sort {
+            display: grid;
+            justify-self: right;
+            grid-auto-flow: column;
+            gap: 1rem;
+            align-items: center;
+        }
+    }
+
+    .featuredCourse {
+        padding: 0;
+    }
+.list{
+    .card {
+        background-color: var(--white);
+        color: var(--gray-9);
+        transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+        background-image: none;
+        overflow: hidden;
+        position: relative;
+        box-shadow:
+            rgba(145, 158, 171, 0.2) 0px 0px 2px 0px,
+            rgba(145, 158, 171, 0.12) 0px 12px 24px -4px;
+        border-radius: 16px;
+        z-index: 0;
+        width: 23rem;
+        height: 30rem;
+        padding: .8rem;
+        img{
+            border-radius: 16px;
+        }
+    }
+}
+
+.loaderContainer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.7); /* Semi-transparent background */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 999; /* Ensure it is above other content */
+    pointer-events: none; /* Prevent interaction with overlay content */
+  }
+
+    
+}
+.spinner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 80%;
+    background-color: rgba(255, 255, 255, 0.8); /* Optional: to create a dimming effect */
+    z-index: 9999; /* Ensure the spinner is on top of other content */
+  }
+.formWrapper{
+    padding: 2rem 0;
+}
+
+.titleH6{
+    max-width: 30%;
+    line-height: 2.5rem;
+    color: var(--gray-8);
+}
+
+.sortCenter{
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: max-content max-content max-content;
+    justify-content: center;
+}
+.wrapper {
+    .fontColor {
+        color: var(--text-secondary) !important;
+        font-size: xx-large;
+      }
+      .SideImage1{
+        display: flex;
+        justify-content: center;
+        margin-top: -1%;
+        position: relative;
+        padding-left: 100px;
+        padding-right: 50px;
+        height: 170px;
+        padding-top: 10px;
+      }
+      
+        .SideImage2, .SideImage3, .SideImage4, .SideImage5 {
+        display: flex;
+        justify-content: center;
+        margin-top: -1%;
+        position: relative;
+        padding-left: 100px;
+        padding-right: 50px;
+        height: 180px;
+        padding-top: 10px;
+      }
+      
+}

@@ -1,0 +1,42 @@
+.wrapper{
+    padding: 3rem;
+    .card{
+        margin: 2rem 0;
+        background: var(--gray-1);
+        min-height: 10rem;
+        max-width: 500rem;
+        padding: 2rem;
+        margin-top: 30px;
+        border-radius: .6rem;
+        .header{
+            display: grid;
+            grid-template-columns: 1fr max-content;
+        }
+        .contnet{
+            padding: 1rem 0;
+        }
+        .footer{
+            display: grid;
+            justify-content: right;
+        }
+    }
+    .pricing-card{
+        background: '#f0f2f5';
+        padding: 3rem;
+        .card-hover {
+            transition: transform 0.2s;
+          }
+          
+          .card-hover:hover {
+            // transform: scale(1.05); /* Scale up by 5% on hover */
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+          }
+    }
+}
+.paymentSuccess {
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    height: 80vh; /* Full viewport height */
+}

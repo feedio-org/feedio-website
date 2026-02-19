@@ -1,0 +1,24 @@
+.wrapper {
+    input {
+        text-align: center;
+        box-sizing: border-box;
+        margin: 0;
+        padding: .5rem .8rem;
+        color: var(--gray-8);
+        font-size: 13px;
+        line-height: 1.61;
+        width: 3.5rem !important;
+        border-width: 1px;
+        border-style: solid;
+        border-color: var(--border);
+        border-radius: .4rem;
+        transition: all 0.2s;
+        &:focus-visible {
+            outline: none !important;
+        }
+        &:hover{
+            border-color: #857dbd;
+        }
+    }
+   
+}

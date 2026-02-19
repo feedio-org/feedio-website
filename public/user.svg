@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16px" height="16px">
+    <g fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" data-name="&amp;lt;Group&amp;gt;"
+        class="colorStroke303c42 svgStroke">
+        <circle cx="12" cy="7" r="5.5" data-name="&amp;lt;Path&amp;gt;"></circle>
+        <path
+            d="M12 14.5a18.74 18.74 0 0 0-8.31 2.2 4 4 0 0 0-2.19 3.57V21A1.5 1.5 0 0 0 3 22.5h18a1.5 1.5 0 0 0 1.5-1.5v-.73a4 4 0 0 0-2.19-3.57A18.74 18.74 0 0 0 12 14.5Z"
+            data-name="&amp;lt;Path&amp;gt;"></path>
+    </g>
+</svg>

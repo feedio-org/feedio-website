@@ -1,0 +1,130 @@
+:root {
+    --font-family: inter, sans-serif, serif;
+    --font-size: 1.4rem;
+    --font-thin: 100;
+    --font-light: 300;
+    --font-regular: 400;
+    --font-medium: 500;
+    --font-semi-bold: 600;
+    --font-bold: 700;
+    --font-extra-bold: 800;
+    --font-black: 900;
+    --active-light:#FFF7E6;
+
+    --primary:#fa8c16;
+    --white:#FFF;
+    --error: #ff5630;
+    --layout:rgb(244, 246, 248);
+
+
+    --gray-1:#ffffff;
+    --gray-2: #FCFDFD;
+    --gray-3: #F9FAFB;
+    --gray-4: #F4F6F8;
+    --gray-5: #DFE3E8;
+    --gray-6: #C4CDD5;
+    --gray-7: #919EAB;
+    --gray-8: #637381;
+    --gray-9: #454F5B;
+    --gray-10:#1C252E;
+    --gray-11:#141A21;
+
+    --color-palette-1-dark: #091e42;
+    --color-palette-1-mid: #a4adba;
+    --color-palette-1-lite: #e4e4e4;
+    --color-palette-2-dark: #de350c;
+    --color-palette-2-mid: #e75167;
+    --color-palette-2-lite: #ffebe6;
+    --color-palette-3-dark: #5243aa;
+    --color-palette-3-mid: #c0b5f2;
+    --color-palette-3-lite: #e9e6ff;
+    --color-palette-4-dark: #0052cc;
+    --color-palette-4-mid: #4c9aff;
+    --color-palette-4-lite: #ddebff;
+    --color-palette-5-dark: #00a3bf;
+    --color-palette-5-mid: #78e2f1;
+    --color-palette-5-lite: #b3f5ff;
+    --color-palette-6-dark: #028759;
+    --color-palette-6-mid: #03d37e;
+    --color-palette-6-lite: #eefef5;
+    --color-palette-7-dark: #ff991f;
+    --color-palette-7-mid: #fdb53a;
+    --color-palette-7-lite: #fef0b3;
+    --color-palette-8-dark: #41526e;
+    --color-palette-8-mid: #79869a;
+    --color-palette-8-lite: #dddee1;
+
+
+    --modal-color-1: #525252;
+    --cancel: #f7f7f7;
+    --back-drop: rgba(193, 201, 210, 0.3);
+    --disbaled: rgba(193, 201, 210, 0.3);
+    --shadow-collaps: 0 2px 8px -2px rgba(0, 0, 0, 0.05), 0 1px 4px -1px rgba(25, 15, 15, 0.07),
+        0 0 1px 0 rgba(0, 0, 0, 0.08);
+    --hover-bg: rgba(0, 0, 0, 0.06);
+
+    --card-1: 0 2px 16px 0 rgba(41, 45, 55, 0.16);
+    --card-2: 0 16px 40px 0 rgba(112, 144, 176, 0.2);
+    --card-3: 0 1px 2px 0 rgba(25, 15, 15, 0.07);
+    --card-4: rgba(145, 158, 171, 0.2) 0px 0px 2px 0px, rgba(145, 158, 171, 0.12) 0px 12px 24px -4px;
+    --cards-5: rgba(145, 158, 171, 0.24) 0px 0px 2px 0px, rgba(145, 158, 171, 0.24) -20px 20px 40px -4px;
+
+    --shadows-9: 0px 5px 6px -3px rgba(145 158 171 / 0.2), 0px 9px 12px 1px rgba(145 158 171 / 0.14),
+        0px 3px 16px 2px rgba(145 158 171 / 0.12);
+    --shadows-10: 0px 6px 6px -3px rgba(145 158 171 / 0.2), 0px 10px 14px 1px rgba(145 158 171 / 0.14),
+        0px 4px 18px 3px rgba(145 158 171 / 0.12);
+    --shadows-11: 0px 6px 7px -4px rgba(145 158 171 / 0.2), 0px 11px 15px 1px rgba(145 158 171 / 0.14),
+        0px 4px 20px 3px rgba(145 158 171 / 0.12);
+    --shadows-12: 0px 7px 8px -4px rgba(145 158 171 / 0.2), 0px 12px 17px 2px rgba(145 158 171 / 0.14),
+        0px 5px 22px 4px rgba(145 158 171 / 0.12);
+    --shadows-13: 0px 7px 8px -4px rgba(145 158 171 / 0.2), 0px 13px 19px 2px rgba(145 158 171 / 0.14),
+        0px 5px 24px 4px rgba(145 158 171 / 0.12);
+    --shadows-14: 0px 7px 9px -4px rgba(145 158 171 / 0.2), 0px 14px 21px 2px rgba(145 158 171 / 0.14),
+        0px 5px 26px 4px rgba(145 158 171 / 0.12);
+    --shadows-15: 0px 8px 9px -5px rgba(145 158 171 / 0.2), 0px 15px 22px 2px rgba(145 158 171 / 0.14),
+        0px 6px 28px 5px rgba(145 158 171 / 0.12);
+    --shadows-16: 0px 8px 10px -5px rgba(145 158 171 / 0.2), 0px 16px 24px 2px rgba(145 158 171 / 0.14),
+        0px 6px 30px 5px rgba(145 158 171 / 0.12);
+    --shadows-17: 0px 8px 11px -5px rgba(145 158 171 / 0.2), 0px 17px 26px 2px rgba(145 158 171 / 0.14),
+        0px 6px 32px 5px rgba(145 158 171 / 0.12);
+    --shadows-18: 0px 9px 11px -5px rgba(145 158 171 / 0.2), 0px 18px 28px 2px rgba(145 158 171 / 0.14),
+        0px 7px 34px 6px rgba(145 158 171 / 0.12);
+    --shadows-19: 0px 9px 12px -6px rgba(145 158 171 / 0.2), 0px 19px 29px 2px rgba(145 158 171 / 0.14),
+        0px 7px 36px 6px rgba(145 158 171 / 0.12);
+    --shadows-20: 0px 10px 13px -6px rgba(145 158 171 / 0.2), 0px 20px 31px 3px rgba(145 158 171 / 0.14),
+        0px 8px 38px 7px rgba(145 158 171 / 0.12);
+    --shadows-21: 0px 10px 13px -6px rgba(145 158 171 / 0.2), 0px 21px 33px 3px rgba(145 158 171 / 0.14),
+        0px 8px 40px 7px rgba(145 158 171 / 0.12);
+    --shadows-22: 0px 10px 14px -6px rgba(145 158 171 / 0.2), 0px 22px 35px 3px rgba(145 158 171 / 0.14),
+        0px 8px 42px 7px rgba(145 158 171 / 0.12);
+    --shadows-23: 0px 11px 14px -7px rgba(145 158 171 / 0.2), 0px 23px 36px 3px rgba(145 158 171 / 0.14),
+        0px 9px 44px 8px rgba(145 158 171 / 0.12);
+    --shadows-24: 0px 11px 15px -7px rgba(145 158 171 / 0.2), 0px 24px 38px 3px rgba(145 158 171 / 0.14),
+        0px 9px 46px 8px rgba(145 158 171 / 0.12);
+    --customShadows-z1: 0 1px 2px 0 rgba(145 158 171 / 0.16);
+    --customShadows-z4: 0 4px 8px 0 rgba(145 158 171 / 0.16);
+    --customShadows-z8: 0 8px 16px 0 rgba(145 158 171 / 0.16);
+    --customShadows-z12: 0 12px 24px -4px rgba(145 158 171 / 0.16);
+    --customShadows-z16: 0 16px 32px -4px rgba(145 158 171 / 0.16);
+    --customShadows-z20: 0 20px 40px -4px rgba(145 158 171 / 0.16);
+    --customShadows-z24: 0 24px 48px 0 rgba(145 158 171 / 0.16);
+    --customShadows-dialog: -40px 40px 80px -8px rgba(0 0 0 / 0.24);
+    --customShadows-card: 0 0 2px 0 rgba(145 158 171 / 0.2), 0 12px 24px -4px rgba(145 158 171 / 0.12);
+    --customShadows-dropdown: 0 0 2px 0 rgba(145 158 171 / 0.24), -20px 20px 40px -4px rgba(145 158 171 / 0.24);
+    --customShadows-primary: 0 8px 16px 0 rgba(0 167 111 / 0.24);
+    --customShadows-secondary: 0 8px 16px 0 rgba(142 51 255 / 0.24);
+    --customShadows-info: 0 8px 16px 0 rgba(0 184 217 / 0.24);
+    --customShadows-success: 0 8px 16px 0 rgba(34 197 94 / 0.24);
+    --customShadows-warning: 0 8px 16px 0 rgba(255 171 0 / 0.24);
+    --customShadows-error: 0 8px 16px 0 rgba(255 86 48 / 0.24);
+
+    --toastify-toast-min-height: 48px;
+    --toastify-font-family: "Inter", sans-serif, serif;
+
+    --toastify-icon-color-info: var(--palette-primary-darker);
+    --toastify-icon-color-success: var(--palette-success-main);
+    --toastify-icon-color-warning: var(--warning);
+    --toastify-icon-color-error: var(--palette-error-main);
+    --toastify-color-dark: rgba(0, 0, 0, 0.8);
+    --vscode-editorGutter-background: var(--active);
+}
